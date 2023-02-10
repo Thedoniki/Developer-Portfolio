@@ -1,8 +1,4 @@
-# This is my first project implementing react with javascript and is ongoing. To see where I'm at in this project you can watch my process in Trello:
-
-# https://trello.com/b/h0rMxosC/react-simple-project-github 
-
-
+# Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
@@ -72,3 +68,17 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 ### `npm run build` fails to minify
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+
+# This is my first project implementing react with javascript and is ongoing. To see where I'm at in this project you can watch my process in Trello:
+
+# https://trello.com/b/h0rMxosC/react-simple-project-github 
+
+# reactsimpleproject
+
+# Links that will be useful:
+
+# - https://github.com/facebook/create-react-app
+# - https://www.tatvasoft.com/blog/reactjs-best-practices/
+# - https://www.mongodb.com/try/download/community
+# - https://create-react-app.dev/
+# - https://reactjs.org/docs/getting-started.html
