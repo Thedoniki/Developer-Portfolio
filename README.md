@@ -1,14 +1,8 @@
-# reactsimpleproject
+# This is my first project implementing react with javascript and is ongoing. To see where I'm at in this project you can watch my process in Trello:
 
-# Links that will be useful:
+# https://trello.com/b/h0rMxosC/react-simple-project-github 
 
-# - https://github.com/facebook/create-react-app
-# - https://www.tatvasoft.com/blog/reactjs-best-practices/
-# - https://www.mongodb.com/try/download/community
-# - https://create-react-app.dev/
-# - https://reactjs.org/docs/getting-started.html
 
-# Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
