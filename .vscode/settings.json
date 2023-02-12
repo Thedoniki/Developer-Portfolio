@@ -1,0 +1,10 @@
+{
+
+    "editor.columnSelection": false,
+    "editor.definitionLinkOpensInPeek": true,
+    "editor.mouseWheelZoom": true,
+    "editor.smoothScrolling": true,
+    "editor.formatOnPaste": true,
+    "editor.formatOnSave": true,
+//    "explorer.fileNesting.enabled": true
+}
