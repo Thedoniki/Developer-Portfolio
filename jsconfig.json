@@ -1,43 +1,14 @@
 {
-  "compilerOptions": {
-    "baseUrl": "./",
-    "sourceMap": true,
-    "declaration": false,
-    "module": "ESNext",
-    "moduleResolution": "node",
-    "target": "ES2020",
-    "jsx": "react",
-    "strictNullChecks": true,
-    "strictFunctionTypes": true,
-    "outDir": "./FirebaseAndCMD-Record"
-  },
-  "exclude": [
-    "node_modules"
-  ]
-}
-/* 
-
-Solution found: https: //stackoverflow.com/questions/53937924/typescript-cannot-find-type-in-definition-file-in-node-modules-folder
-
-
-{
-  "compileOnSave": false,
-  "compilerOptions": {
-    "baseUrl": "./",
-    "outDir": "./dist/out-tsc",
-    "sourceMap": true,
-    "declaration": false,
-    "module": "es2015",
-    "moduleResolution": "node",
-    "emitDecoratorMetadata": true,
-    "experimentalDecorators": true,
-    "target": "es5",
-    "typeRoots": [
-      "node_modules/@types"
-    ],
-    "lib": [
-      "es2017",
-      "dom"
+"compilerOptions": {
+      "module": "ESNext",
+      "moduleResolution": "Node",
+      "target": "ES2020",
+      "jsx": "react",
+      "strictNullChecks": true,
+      "strictFunctionTypes": true
+    },
+    "exclude": [
+      "node_modules",
+      "**/node_modules/*"
     ]
   }
-} */
