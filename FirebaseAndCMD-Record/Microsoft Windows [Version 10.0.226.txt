@@ -1,0 +1,153 @@
+Microsoft Windows [Version 10.0.22623.1255]
+(c) Microsoft Corporation. Med ensamrätt.
+
+C:\Users\Donika\reactsimpleproject>npm install -g firebase-tools
+npm WARN deprecated har-validator@5.1.3: this library is no longer supported
+npm WARN deprecated debug@4.1.1: Debug versions >=3.2.0 <3.2.7 || >=4 <4.3.1 have a low-severity ReDos regression when used in a Node.js environment. It is recommended you upgrade to 3.2.7 or 4.3.1. (https://github.com/visionmedia/debug/issues/797)
+npm WARN deprecated uuid@3.4.0: Please upgrade  to version 7 or higher.  Older versions may use Math.random() in certain circumstances, which is known to be problematic.  See https://v8.dev/blog/math-random for details.
+npm WARN deprecated request@2.88.2: request has been deprecated, see https://github.com/request/request/issues/3142
+
+changed 701 packages, and audited 703 packages in 23s
+
+1 high severity vulnerability
+
+To address all issues, run:
+  npm audit fix
+
+Run `npm audit` for details.
+
+C:\Users\Donika\reactsimpleproject>firebase login
+Already logged in as donikamehmet@gmail.com
+
+C:\Users\Donika\reactsimpleproject>
+C:\Users\Donika\reactsimpleproject>
+C:\Users\Donika\reactsimpleproject>firebase init
+
+     ######## #### ########  ######## ########     ###     ######  ########
+     ##        ##  ##     ## ##       ##     ##  ##   ##  ##       ##
+     ######    ##  ########  ######   ########  #########  ######  ######
+     ##        ##  ##    ##  ##       ##     ## ##     ##       ## ##
+     ##       #### ##     ## ######## ########  ##     ##  ######  ########
+
+You're about to initialize a Firebase project in this directory:
+
+  C:\Users\Donika\reactsimpleproject
+
+? Are you ready to proceed? Yes
+? Which Firebase features do you want to set up for this directory? Press Space to select features, then Enter to confirm your choices. Hosting: Configure files for Firebase Hosting and (optionally) set up GitHub Act
+ion deploys, Hosting: Set up GitHub Action deploys
+
+=== Project Setup
+
+First, let's associate this project directory with a Firebase project.
+You can create multiple project aliases by running firebase use --add,
+but for now we'll just set up a default project.
+
+? Please select an option: Use an existing project
+? Select a default Firebase project for this directory: developer-portfolio-97fcc (Developer Portfolio)
+i  Using project developer-portfolio-97fcc (Developer Portfolio)
+
+=== Hosting Setup
+
+Your public directory is the folder (relative to your project directory) that
+will contain Hosting assets to be uploaded with firebase deploy. If you
+have a build process for your assets, use your build's output directory.
+
+? What do you want to use as your public directory? C:\Users\Donika\reactsimpleproject\public
+? Configure as a single-page app (rewrite all urls to /index.html)? No
+? Set up automatic builds and deploys with GitHub? Yes
+
+Error: An unexpected error has occurred.
+
+C:\Users\Donika\reactsimpleproject>firebase init  
+
+     ######## #### ########  ######## ########     ###     ######  ########
+     ##        ##  ##     ## ##       ##     ##  ##   ##  ##       ##
+     ######    ##  ########  ######   ########  #########  ######  ######
+     ##        ##  ##    ##  ##       ##     ## ##     ##       ## ##
+     ##       #### ##     ## ######## ########  ##     ##  ######  ########
+
+You're about to initialize a Firebase project in this directory:
+
+  C:\Users\Donika\reactsimpleproject
+
+? Are you ready to proceed? Yes
+? Which Firebase features do you want to set up for this directory? Press Space to select features, then Enter to confirm your choices. Hosting: Configure files for Firebase Hosting and (optionally) set up GitHub Act
+ion deploys
+
+=== Project Setup
+
+First, let's associate this project directory with a Firebase project.
+You can create multiple project aliases by running firebase use --add,
+but for now we'll just set up a default project.
+
+? Please select an option: Don't set up a default project
+
+=== Hosting Setup
+
+Your public directory is the folder (relative to your project directory) that
+will contain Hosting assets to be uploaded with firebase deploy. If you
+have a build process for your assets, use your build's output directory.
+
+? What do you want to use as your public directory? public
+? Configure as a single-page app (rewrite all urls to /index.html)? Yes
+? Set up automatic builds and deploys with GitHub? No
+? File public/index.html already exists. Overwrite? No
+i  Skipping write of public/index.html
+
+i  Writing configuration info to firebase.json...
+i  Writing project information to .firebaserc...
+
++  Firebase initialization complete!
+
+C:\Users\Donika\reactsimpleproject>Command | clip
+'Command' is not recognized as an internal or external command,
+operable program or batch file.
+
+C:\Users\Donika\reactsimpleproject>Get-Content .\Process.txt
+'Get-Content' is not recognized as an internal or external command,
+operable program or batch file.
+
+C:\Users\Donika\reactsimpleproject>winget export?
+Windows Package Manager v1.3.2691
+Copyright (c) Microsoft Corporation. All rights reserved.
+
+Unrecognized command : 'export?'
+
+The winget command line utility enables installing applications and other packages from the command line.
+
+usage: winget [<command>] [<options>]
+
+The following commands are available:
+  install    Installs the given package
+  show       Shows information about a package
+  source     Manage sources of packages
+  search     Find and show basic info of packages
+  list       Display installed packages
+
+usage: winget export [-o] <output> [<options>]
+
+The following arguments are available:
+  -o,--output                 File where the result is to be written
+
+The following options are available:
+  -s,--source                 Export packages from the specified source
+  --include-versions          Include package versions in produced file
+  --accept-source-agreements  Accept all source agreements during source operations
+
+More help can be found at: https://aka.ms/winget-command-export
+
+C:\Users\Donika\reactsimpleproject>^A
+'☺' is not recognized as an internal or external command,
+operable program or batch file.
+
+C:\Users\Donika\reactsimpleproject>Get-Content .\Process.txt
+'Get-Content' is not recognized as an internal or external command,
+operable program or batch file.
+
+C:\Users\Donika\reactsimpleproject>Get-Content .\Process.txt
+'Get-Content' is not recognized as an internal or external command,
+operable program or batch file.
+
+C:\Users\Donika\reactsimpleproject>
+

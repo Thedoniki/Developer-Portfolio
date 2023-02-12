@@ -1,0 +1,335 @@
+https://learn.microsoft.com/sv-se/powershell/scripting/learn/ps101/01-getting-started?view=powershell-7.3
+
+Windows PowerShell
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+Install the latest PowerShell for new features and improvements! https://aka.ms/PSWindows
+
+PS C:\Users\Donika> ls
+
+
+    Directory: C:\Users\Donika
+
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+d-----        2023-02-08     05:39                .config
+d-----        2023-02-08     08:45                .dotnet
+d-----        2022-10-23     21:39                .expo
+d-----        2022-10-21     23:07                .gem
+d-----        2022-12-04     08:05                .nuget
+d-----        2022-11-28     17:31                .omnisharp
+d-----        2022-10-23     16:12                .rest-client
+d-----        2023-02-10     11:41                .ssh
+d-----        2022-12-18     18:36                .templateengine
+d-----        2023-02-08     21:03                .VirtualBox
+d-----        2022-10-21     23:28                .vscode
+d-r---        2022-09-29     14:20                3D Objects
+d-----        2022-10-23     21:31                AwesomeProject
+d-r---        2022-10-20     17:13                Contacts
+d-----        2022-10-23     18:21                craft
+d-r---        2023-01-18     00:47                Creative Cloud Files
+d-r---        2023-02-11     12:44                Desktop
+d-r---        2023-02-08     19:08                Documents
+d-r---        2023-02-12     17:00                Downloads
+d-r---        2022-12-18     18:43                Favorites
+d-r---        2022-10-20     17:13                Links
+d-r---        2022-10-20     17:50                Music
+d-----        2023-02-04     11:28                myapp
+dar--l        2023-01-16     15:55                OneDrive
+d-r---        2022-12-19     15:42                Pictures
+d-----        2023-02-08     08:13                reactapptwo
+d-----        2023-02-12     18:45                reactsimpleproject
+d-r---        2022-10-20     17:13                Saved Games
+d-----        2023-02-08     06:12                scoop
+d-r---        2022-10-21     10:43                Searches
+d-----        2022-11-29     11:38                source
+d-r---        2022-10-20     21:25                Videos
+d-----        2022-12-18     12:06                VirtualBox VMs
+d-----        2023-01-23     12:14                Windows-appsample-customers-orders-database
+-a----        2022-10-23     18:16            295 .bash_history
+-a----        2022-10-23     16:54            151 .gitconfig
+-a----        2022-10-23     16:55             20 .lesshst
+-a----        2023-02-04     11:18             48 .node_repl_history
+-a----        2022-10-23     15:12              0 ngrokngrok
+-a----        2023-02-04     16:01            202 package.json
+
+
+PS C:\Users\Donika> md RootDirFirebase
+
+
+    Directory: C:\Users\Donika
+
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+d-----        2023-02-12     18:59                RootDirFirebase
+
+
+PS C:\Users\Donika> ls
+
+
+    Directory: C:\Users\Donika
+
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+d-----        2023-02-08     05:39                .config
+d-----        2023-02-08     08:45                .dotnet
+d-----        2022-10-23     21:39                .expo
+d-----        2022-10-21     23:07                .gem
+d-----        2022-12-04     08:05                .nuget
+d-----        2022-11-28     17:31                .omnisharp
+d-----        2022-10-23     16:12                .rest-client
+d-----        2023-02-10     11:41                .ssh
+d-----        2022-12-18     18:36                .templateengine
+d-----        2023-02-08     21:03                .VirtualBox
+d-----        2022-10-21     23:28                .vscode
+d-r---        2022-09-29     14:20                3D Objects
+d-----        2022-10-23     21:31                AwesomeProject
+d-r---        2022-10-20     17:13                Contacts
+d-----        2022-10-23     18:21                craft
+d-r---        2023-01-18     00:47                Creative Cloud Files
+d-r---        2023-02-11     12:44                Desktop
+d-r---        2023-02-08     19:08                Documents
+d-r---        2023-02-12     17:00                Downloads
+d-r---        2022-12-18     18:43                Favorites
+d-r---        2022-10-20     17:13                Links
+d-r---        2022-10-20     17:50                Music
+d-----        2023-02-04     11:28                myapp
+dar--l        2023-01-16     15:55                OneDrive
+d-r---        2022-12-19     15:42                Pictures
+d-----        2023-02-08     08:13                reactapptwo
+d-----        2023-02-12     18:45                reactsimpleproject
+d-----        2023-02-12     18:59                RootDirFirebase
+d-r---        2022-10-20     17:13                Saved Games
+d-----        2023-02-08     06:12                scoop
+d-r---        2022-10-21     10:43                Searches
+d-----        2022-11-29     11:38                source
+d-r---        2022-10-20     21:25                Videos
+d-----        2022-12-18     12:06                VirtualBox VMs
+d-----        2023-01-23     12:14                Windows-appsample-customers-orders-database
+-a----        2022-10-23     18:16            295 .bash_history
+-a----        2022-10-23     16:54            151 .gitconfig
+-a----        2022-10-23     16:55             20 .lesshst
+-a----        2023-02-04     11:18             48 .node_repl_history
+-a----        2022-10-23     15:12              0 ngrokngrok
+-a----        2023-02-04     16:01            202 package.json
+
+
+PS C:\Users\Donika> cd ./RootDirFirebase
+PS C:\Users\Donika\RootDirFirebase> firebase login
+i  Firebase optionally collects CLI and Emulator Suite usage and error reporting information to help improve our products. Data is collected in accordance with Google's privacy policy(https://policies.google.com/privacy) and is not used to identify you.
+
+? Allow Firebase to collect CLI and Emulator Suite usage and error reporting information? No
+
+Visit this URL on this device to log in:
+https://accounts.google.com/o/oauth2/auth?client_id=563584335869-fgrhgmd47bqnekij5i8b5pr03ho849e6.apps.googleusercontent.com&scope=email%20openid%20https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fcloudplatformprojects.readonly%20https%3A%2F%2Fwww.googleapis.com%2Fauth%2Ffirebase%20https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fcloud-platform&response_type=code&state=476562053&redirect_uri=http%3A%2F%2Flocalhost%3A9005
+
+Waiting for authentication...
+
++  Success! Logged in as donikamehmet@gmail.com
+PS C:\Users\Donika\RootDirFirebase> firebase init
+
+     ######## #### ########  ######## ########     ###     ######  ########
+     ##        ##  ##     ## ##       ##     ##  ##   ##  ##       ##
+     ######    ##  ########  ######   ########  #########  ######  ######
+     ##        ##  ##    ##  ##       ##     ## ##     ##       ## ##
+     ##       #### ##     ## ######## ########  ##     ##  ######  ########
+
+You're about to initialize a Firebase project in this directory:
+
+  C:\Users\Donika\RootDirFirebase
+
+? Are you ready to proceed? No
+
+Error: Aborted by user.
+PS C:\Users\Donika\RootDirFirebase> move reactsimpleproject
+move : Cannot find path 'C:\Users\Donika\RootDirFirebase\reactsimpleproject' because it does not exist.
+At line:1 char:1
++ move reactsimpleproject
++ ~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (C:\Users\Donika...ctsimpleproject:String) [Move-Item], ItemNotFoundException
+    + FullyQualifiedErrorId : PathNotFound,Microsoft.PowerShell.Commands.MoveItemCommand
+
+PS C:\Users\Donika\RootDirFirebase> move C:\Users\Donika\RootDirFirebase C:\Users\Donika\reactsimpleproject
+move : Cannot move item because the item at 'C:\Users\Donika\RootDirFirebase' is in use.
+At line:1 char:1
++ move C:\Users\Donika\RootDirFirebase C:\Users\Donika\reactsimpleproje ...
++ ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : InvalidOperation: (:) [Move-Item], PSInvalidOperationException
+    + FullyQualifiedErrorId : InvalidOperation,Microsoft.PowerShell.Commands.MoveItemCommand
+
+PS C:\Users\Donika\RootDirFirebase> move C:\Users\Donika\reactsimpleproject
+move : Processen kan inte komma åt filen eftersom den används i en annan process.
+At line:1 char:1
++ move C:\Users\Donika\reactsimpleproject
++ ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : WriteError: (C:\Users\Donika\reactsimpleproject:DirectoryInfo) [Move-Item], IOException
+    + FullyQualifiedErrorId : MoveDirectoryItemIOError,Microsoft.PowerShell.Commands.MoveItemCommand
+
+PS C:\Users\Donika\RootDirFirebase> ^D
+♦ : The term '♦' is not recognized as the name of a cmdlet, function, script file, or operable program. Check the spelling of the name, or if a path was included, verify that the path
+ is correct and try again.
+At line:1 char:1
++ ♦
++ ~
+    + CategoryInfo          : ObjectNotFound: (♦:String) [], CommandNotFoundException
+    + FullyQualifiedErrorId : CommandNotFoundException
+
+PS C:\Users\Donika\RootDirFirebase> ^Q
+◄ : The term '◄' is not recognized as the name of a cmdlet, function, script file, or operable program. Check the spelling of the name, or if a path was included, verify that the path
+ is correct and try again.
+At line:1 char:1
++ ◄
++ ~
+    + CategoryInfo          : ObjectNotFound: (◄:String) [], CommandNotFoundException
+    + FullyQualifiedErrorId : CommandNotFoundException
+
+PS C:\Users\Donika\RootDirFirebase>
+PS C:\Users\Donika\RootDirFirebase> cd
+PS C:\Users\Donika\RootDirFirebase> ..cd
+..cd : The term '..cd' is not recognized as the name of a cmdlet, function, script file, or operable program. Check the spelling of the name, or if a path was included, verify that th
+e path is correct and try again.
+At line:1 char:1
++ ..cd
++ ~~~~
+    + CategoryInfo          : ObjectNotFound: (..cd:String) [], CommandNotFoundException
+    + FullyQualifiedErrorId : CommandNotFoundException
+
+PS C:\Users\Donika\RootDirFirebase> cd..
+PS C:\Users\Donika> move RootDirFirebase C:\Users\Donika\reactsimpleproject
+PS C:\Users\Donika> ls
+
+
+    Directory: C:\Users\Donika
+
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+d-----        2023-02-08     05:39                .config
+d-----        2023-02-08     08:45                .dotnet
+d-----        2022-10-23     21:39                .expo
+d-----        2022-10-21     23:07                .gem
+d-----        2022-12-04     08:05                .nuget
+d-----        2022-11-28     17:31                .omnisharp
+d-----        2022-10-23     16:12                .rest-client
+d-----        2023-02-10     11:41                .ssh
+d-----        2022-12-18     18:36                .templateengine
+d-----        2023-02-08     21:03                .VirtualBox
+d-----        2022-10-21     23:28                .vscode
+d-r---        2022-09-29     14:20                3D Objects
+d-----        2022-10-23     21:31                AwesomeProject
+d-r---        2022-10-20     17:13                Contacts
+d-----        2022-10-23     18:21                craft
+d-r---        2023-01-18     00:47                Creative Cloud Files
+d-r---        2023-02-11     12:44                Desktop
+d-r---        2023-02-08     19:08                Documents
+d-r---        2023-02-12     17:00                Downloads
+d-r---        2022-12-18     18:43                Favorites
+d-r---        2022-10-20     17:13                Links
+d-r---        2022-10-20     17:50                Music
+d-----        2023-02-04     11:28                myapp
+dar--l        2023-01-16     15:55                OneDrive
+d-r---        2022-12-19     15:42                Pictures
+d-----        2023-02-08     08:13                reactapptwo
+d-----        2023-02-12     19:08                reactsimpleproject
+d-r---        2022-10-20     17:13                Saved Games
+d-----        2023-02-08     06:12                scoop
+d-r---        2022-10-21     10:43                Searches
+d-----        2022-11-29     11:38                source
+d-r---        2022-10-20     21:25                Videos
+d-----        2022-12-18     12:06                VirtualBox VMs
+d-----        2023-01-23     12:14                Windows-appsample-customers-orders-database
+-a----        2022-10-23     18:16            295 .bash_history
+-a----        2022-10-23     16:54            151 .gitconfig
+-a----        2022-10-23     16:55             20 .lesshst
+-a----        2023-02-04     11:18             48 .node_repl_history
+-a----        2022-10-23     15:12              0 ngrokngrok
+-a----        2023-02-04     16:01            202 package.json
+
+
+PS C:\Users\Donika> cd reactsimpleproject
+PS C:\Users\Donika\reactsimpleproject> cd ./RootDirFirebase
+PS C:\Users\Donika\reactsimpleproject\RootDirFirebase> firebase init
+
+     ######## #### ########  ######## ########     ###     ######  ########
+     ##        ##  ##     ## ##       ##     ##  ##   ##  ##       ##
+     ######    ##  ########  ######   ########  #########  ######  ######
+     ##        ##  ##    ##  ##       ##     ## ##     ##       ## ##
+     ##       #### ##     ## ######## ########  ##     ##  ######  ########
+
+You're about to initialize a Firebase project in this directory:
+
+  C:\Users\Donika\reactsimpleproject\RootDirFirebase
+
+? Are you ready to proceed? Yes
+? Which Firebase features do you want to set up for this directory? Press Space to select features, then Enter to confirm your choices. Hosting: Configure files for Firebase Hosting an
+d (optionally) set up GitHub Action deploys, Hosting: Set up GitHub Action deploys
+
+=== Project Setup
+
+First, let's associate this project directory with a Firebase project.
+You can create multiple project aliases by running firebase use --add,
+but for now we'll just set up a default project.
+
+? Please select an option: Use an existing project
+? Select a default Firebase project for this directory: developer-portfolio-97fcc (Developer Portfolio)
+i  Using project developer-portfolio-97fcc (Developer Portfolio)
+
+=== Hosting Setup
+
+Your public directory is the folder (relative to your project directory) that
+will contain Hosting assets to be uploaded with firebase deploy. If you
+have a build process for your assets, use your build's output directory.
+
+? What do you want to use as your public directory? C:\Users\Donika\reactsimpleproject
+? Configure as a single-page app (rewrite all urls to /index.html)? No
+? Set up automatic builds and deploys with GitHub? No
+
+Error: An unexpected error has occurred.
+PS C:\Users\Donika\reactsimpleproject\RootDirFirebase> cd..
+PS C:\Users\Donika\reactsimpleproject> firebase init
+
+     ######## #### ########  ######## ########     ###     ######  ########
+     ##        ##  ##     ## ##       ##     ##  ##   ##  ##       ##
+     ######    ##  ########  ######   ########  #########  ######  ######
+     ##        ##  ##    ##  ##       ##     ## ##     ##       ## ##
+     ##       #### ##     ## ######## ########  ##     ##  ######  ########
+
+You're about to initialize a Firebase project in this directory:
+
+  C:\Users\Donika\reactsimpleproject
+
+? Are you ready to proceed? Yes
+? Which Firebase features do you want to set up for this directory? Press Space to select features, then Enter to confirm your choices. (Press <space> to select, <a> to toggle all, <i>
+ to invert selection, and <enter> to proceed)
+ (*) Functions: Configure a Cloud Functions directory and its files
+ (*) Hosting: Configure files for Firebase Hosting and (optionally) set up GitHub Action deploys
+ (*) Hosting: Set up GitHub Action deploys
+>(*) Storage: Configure a security rules file for Cloud Storage
+ (*) Emulators: Set up local emulators for Firebase products
+ (*) Remote Config: Configure a template file for Remote Config
+ (*) Realtime Database: Configure a security rules file for Realtime Database and (optionally) provision default instance
+(Move up and down to reveal more choices)
+PS C:\Users\Donika\reactsimpleproject> winget search Microsoft.PowerShell
+The `msstore` source requires that you view the following agreements before using.
+Terms of Transaction: https://aka.ms/microsoft-store-terms-of-transaction
+The source requires the current machine's 2-letter geographic region to be sent to the backend service to function properly (ex. "US").
+
+Do you agree to all the source agreements terms?
+[Y] Yes  [N] No: y
+Name       Id                           Version Source
+-------------------------------------------------------
+PowerShell Microsoft.PowerShell         7.3.2.0 winget
+PowerShell Microsoft.PowerShell.Preview 7.4.1.0 winget
+PS C:\Users\Donika\reactsimpleproject> winget install --id Microsoft.Powershell --source winget
+Found PowerShell [Microsoft.PowerShell] Version 7.3.2.0
+This application is licensed to you by its owner.
+Microsoft is not responsible for, nor does it grant any licenses to, third-party packages.
+Downloading https://github.com/PowerShell/PowerShell/releases/download/v7.3.2/PowerShell-7.3.2-win-x64.msi
+  ██████████████████████████████   100 MB /  100 MB
+Successfully verified installer hash
+Starting package install...
+Successfully installed
+PS C:\Users\Donika\reactsimpleproject> winget install --id Microsoft.Powershell.Preview --source winget
