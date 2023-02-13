@@ -1,5 +1,5 @@
 {
-  "name": "reactsimpleproject",
+  "name": "devport",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
@@ -42,5 +42,17 @@
   "devDependencies": {
     "eslint-config-prettier": "^8.6.0",
     "prettier": "2.8.4"
-  }
+  },
+  "description": "This is my first project implementing react with javascript and is ongoing. To see where I'm at in this project you can watch my process in Trello:",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Thedoniki/Developer-Portfolio.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Thedoniki/Developer-Portfolio/issues"
+  },
+  "homepage": "https://github.com/Thedoniki/Developer-Portfolio#readme"
 }
